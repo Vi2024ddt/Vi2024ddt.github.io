@@ -110,12 +110,19 @@
     ],
     "youtubeId": "_WJ8se7NIfs",
     "image": "images/xstructure.webp",
-    "links": [],
+    "links": [
+      {
+        "label": "Play Online",
+        "url": "https://vi2024ddt.github.io/Xstructure-WebGL/"
+      }
+    ],
     "colors": [
       "#4a75ff",
       "#201a72"
     ],
-    "platforms": []
+    "platforms": [
+      "Web"
+    ]
   },
   {
     "id": "neoline",
