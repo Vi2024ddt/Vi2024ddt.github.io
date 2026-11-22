@@ -384,21 +384,6 @@
     "platforms": []
   },
   {
-    "id": "colorball-stickman",
-    "name": "ColorBall Stickman",
-    "description": "",
-    "features": [],
-    "tags": [],
-    "youtubeId": "",
-    "image": "",
-    "links": [],
-    "colors": [
-      "#2697ef",
-      "#692bd6"
-    ],
-    "platforms": []
-  },
-  {
     "id": "courier",
     "name": "COURIER",
     "description": "",
