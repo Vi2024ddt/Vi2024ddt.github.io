@@ -1220,16 +1220,40 @@
   {
     "id": "zombie-maze",
     "name": "Zombie Maze",
-    "description": "",
-    "features": [],
-    "tags": [],
-    "youtubeId": "",
+    "description": "Zombie Maze is a 3D maze escape game where you play as a zombie trying to find your way out of a dangerous labyrinth.\n\nExplore winding passages, collect coins, and overcome obstacles and traps, including collapsing floors and sharp spikes. Customize your adventure with different zombie skins, wall designs, and floor textures.\n\nFind the exit and escape the maze! Designed for vertical-screen gameplay.",
+    "features": [
+      [
+        "map",
+        "Escape the Labyrinth"
+      ],
+      [
+        "coins",
+        "Collect Coins"
+      ],
+      [
+        "alert-triangle",
+        "Avoid Spikes & Falling Floors"
+      ],
+      [
+        "palette",
+        "Customize Zombie & Maze Skins"
+      ]
+    ],
+    "tags": [
+      "Maze",
+      "Zombie",
+      "3D",
+      "Vertical"
+    ],
+    "youtubeId": "_nhqgViA474",
     "image": "",
     "links": [],
     "colors": [
       "#2697ef",
       "#692bd6"
     ],
-    "platforms": []
+    "platforms": [
+      "Mobile"
+    ]
   }
 ]
