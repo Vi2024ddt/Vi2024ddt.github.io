@@ -300,5 +300,42 @@
       "#6042d7"
     ],
     "platforms": []
+  },
+  {
+    "id": "farmoid",
+    "name": "Farmoid: Zombie Waves Survival",
+    "description": "Fight off waves of zombies and survive as long as possible.",
+    "features": [
+      [
+        "shield",
+        "Survive Waves"
+      ],
+      [
+        "target",
+        "Fight Zombies"
+      ],
+      [
+        "zap",
+        "Stay Moving"
+      ],
+      [
+        "trophy",
+        "Last Longer"
+      ]
+    ],
+    "tags": [
+      "Survival",
+      "Zombies",
+      "Action",
+      "Unity"
+    ],
+    "youtubeId": "IWsyTQJR6hk",
+    "image": "",
+    "links": [],
+    "colors": [
+      "#65b36e",
+      "#213e61"
+    ],
+    "platforms": []
   }
 ]
