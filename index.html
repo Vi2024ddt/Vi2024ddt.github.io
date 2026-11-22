@@ -231,6 +231,36 @@ footer{background:#0d1048}
 .image-preview{position:fixed;inset:0;z-index:10001;display:none;align-items:center;justify-content:center;padding:65px 4vw;background:#03071bef}.image-preview.open{display:flex}.image-preview img{display:block;max-width:94vw;max-height:calc(100vh - 110px);width:auto;height:auto;object-fit:contain;border:2px solid #b7c8ff;border-radius:12px;box-shadow:0 0 50px #5d43d766}.image-preview-close{position:absolute;right:3vw;top:15px;width:43px;height:43px;border:1px solid #fff9;border-radius:50%;background:#45258e;color:white;font-size:27px;line-height:1}.image-preview-close:hover{background:#8539db}.game-card.active.image-card{cursor:zoom-in}.game-card.active.image-card:hover img{filter:brightness(1.06)}
 .secondary-video-button{border:1px solid #d5baff;border-radius:15px;padding:12px 19px;font-size:13px;font-weight:850;background:linear-gradient(120deg,#9a38ff,#6725ed);color:#fff;box-shadow:0 8px 19px #8038ee40}.secondary-video-button:hover{filter:brightness(1.15)}
 .contact-modal{position:fixed;inset:0;z-index:9999;background:rgba(8,7,30,.78);backdrop-filter:blur(9px);display:none;align-items:center;justify-content:center;padding:20px}.contact-modal.open{display:flex}.contact-panel{position:relative;width:min(100%,460px);max-height:90vh;overflow:auto;border:1px solid #9b7fff80;border-radius:24px;background:linear-gradient(145deg,#29206b,#111333 75%);box-shadow:0 25px 90px #080622bb;padding:34px;color:white}.contact-panel h2{font-size:30px;margin:0 0 8px;color:white}.contact-panel>p{color:#d7d0f5;line-height:1.5;margin:0 0 24px}.contact-close{position:absolute;top:16px;right:18px;background:#ffffff20;color:#fff;border:0;border-radius:50%;width:36px;height:36px;cursor:pointer;font-size:25px}.contact-option{display:flex;align-items:center;gap:14px;border:1px solid #8b75d850;background:#ffffff0c;border-radius:15px;padding:16px;margin-top:12px}.contact-option strong{display:block;font-size:17px}.contact-option small{display:block;color:#bfb8dc;margin-top:3px}.contact-option .contact-symbol{font-size:24px;width:34px;text-align:center;color:#caa8ff}.contact-option .contact-status{margin-left:auto;font-size:11px;color:#bcb4d9;white-space:nowrap}.contact-option.primary{border-color:#9c76ff;background:#7a42d126}.contact-option.primary .contact-status{color:#a8f1c2}.contact-option a{color:inherit;text-decoration:none}a.contact-option{color:#fff;text-decoration:none;cursor:pointer}a.contact-option:hover{border-color:#c5a9ff;background:#ffffff19}.contact-panel .contact-note{margin-top:20px;font-size:12px;color:#aaa4ce}@media(max-width:480px){.contact-panel{padding:27px 20px}.contact-panel h2{font-size:26px}}
+/* Balanced hero spacing: desktop and responsive layouts */
+@media(min-width:901px){
+ .hero{padding-top:22px}
+ .hero .eyebrow{margin-bottom:15px}
+ .hero h1{margin:0 0 15px}
+ .hero .sub{line-height:1.5}
+ .carousel-wrap{margin-top:43px}
+ .selected{margin-top:15px}
+ .selected h2{margin-bottom:16px}
+ .overview{margin-top:65px}
+}
+@media(min-width:651px) and (max-width:900px){
+ .hero{padding-top:18px}
+ .hero .eyebrow{margin-bottom:12px}
+ .hero h1{margin:0 0 12px}
+ .hero .sub{line-height:1.5}
+ .carousel-wrap{margin-top:34px}
+ .selected{margin-top:12px}
+ .overview{margin-top:48px}
+}
+@media(max-width:650px){
+ .hero{padding-top:16px}
+ .hero .eyebrow{margin-bottom:12px}
+ .hero h1{margin:0 0 13px;line-height:1.06}
+ .hero .sub{line-height:1.5;padding:0 16px}
+ .carousel-wrap{margin-top:32px!important}
+ .selected{margin-top:7px!important}
+ .selected h2{margin-bottom:14px}
+ .overview{margin-top:37px}
+}
 </style></head><body>
 <div class="sky">
 <header><a href="#games" class="brand"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 64 52" width="56" height="46" fill="none"><path d="M17 12h30c7 0 11 5 13 13l3 13c2 8-6 14-13 10l-11-9H25l-11 9C7 52-1 46 1 38l3-13C6 17 10 12 17 12Z" fill="#7E2BEE"/><path d="M17 21v15M9.5 28.5h15" stroke="white" stroke-width="4" stroke-linecap="round"/><circle cx="44" cy="25" r="3.3" fill="white"/><circle cx="51" cy="32" r="3.3" fill="white"/></svg></span><span>VOTEIGHT<br><span>GAMES</span></span></a><div class="portfolio-count" aria-label="62 games since October 2024"><span class="portfolio-count-number" id="game-count">62</span><span class="portfolio-count-copy">GAMES CREATED<small id="portfolio-period">SINCE OCT 2024</small></span></div><nav><a href="#games">GAMES</a><a href="#about">ABOUT</a><a href="#contact" id="open-contact">CONTACT</a></nav></header>
