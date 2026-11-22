@@ -700,10 +700,32 @@
   {
     "id": "speedball-io",
     "name": "SpeedBall.io",
-    "description": "",
-    "features": [],
-    "tags": [],
-    "youtubeId": "",
+    "description": "SpeedBall.io is a fast-paced arcade arena game where you grow your ball, crash into opponents, and compete for the highest score!\n\nCollect items scattered across the arena to increase your size and earn points. Smash into rival balls to make them smaller, grow stronger, and dominate the competition!",
+    "features": [
+      [
+        "maximize",
+        "Grow Your Ball"
+      ],
+      [
+        "target",
+        "Crash Into Rivals"
+      ],
+      [
+        "gem",
+        "Collect Arena Items"
+      ],
+      [
+        "trophy",
+        "Earn Points"
+      ]
+    ],
+    "tags": [
+      "Arcade",
+      "Arena",
+      "3D",
+      "Unity"
+    ],
+    "youtubeId": "Xxn_cHvRCGw",
     "image": "",
     "links": [],
     "colors": [
