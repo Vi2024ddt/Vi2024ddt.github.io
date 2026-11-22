@@ -55,6 +55,20 @@ header{max-width:1450px;height:85px}.brand{font-size:23px;letter-spacing:-.8px;l
 .carousel-arrow:hover{transform:scale(1.08)}
 @media(max-width:1000px){.carousel-wrap{height:315px;max-width:100%}.game-card{width:56vw}.carousel-arrow.left{left:8px}.carousel-arrow.right{right:8px}}
 @media(max-width:650px){.carousel-wrap{height:230px}.game-card{width:76vw}.carousel-arrow{width:38px;height:38px;top:calc(50% - 25px)}.carousel-arrow.left{left:3px}.carousel-arrow.right{right:3px}}
+
+/* Align all circular controls precisely and keep them off the cards */
+.carousel-wrap{max-width:1280px}
+.carousel-arrow{position:absolute;top:50%;transform:translateY(-50%);display:flex;align-items:center;justify-content:center;width:48px;height:48px;padding:0;line-height:1;border:2px solid #b8c9f4;border-radius:50%;background:#fff;color:#2b315d;font-size:0;box-shadow:0 5px 14px #1d42812c;z-index:90}
+.carousel-arrow.left{left:-12px}.carousel-arrow.right{right:-12px}
+.carousel-arrow::before{content:"";display:block;width:11px;height:11px;border-top:2.5px solid currentColor;border-right:2.5px solid currentColor;transform:translateX(-2px) rotate(45deg)}
+.carousel-arrow.left::before{transform:translateX(2px) rotate(-135deg)}
+.carousel-arrow:hover{transform:translateY(-50%) scale(1.08)}
+.play-icon{display:flex;align-items:center;justify-content:center;padding:0;width:70px;height:70px;border:2px solid #ffffffd9;border-radius:50%;background:#151d4b9e;color:#fff;font-size:0;box-shadow:0 4px 18px #11183b44}
+.play-icon::before{content:"";display:block;width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:17px solid white;transform:translateX(2px)}
+.game-card.active{border:3px solid #fff;outline:2px solid #4ecaff;outline-offset:2px;box-shadow:0 16px 35px #244d9d44}
+.game-card.active:has(.video){outline-color:#4ecaff}
+@media(max-width:1350px){.carousel-arrow.left{left:10px}.carousel-arrow.right{right:10px}}
+@media(max-width:650px){.carousel-arrow{width:38px;height:38px}.carousel-arrow.left{left:4px}.carousel-arrow.right{right:4px}.play-icon{width:52px;height:52px}.play-icon::before{border-top-width:8px;border-bottom-width:8px;border-left-width:13px}}
 </style></head><body>
 <div class="sky"><div class="cloudscape cloudscape-left" aria-hidden="true"></div><div class="cloudscape cloudscape-right" aria-hidden="true"></div>
 <header><a href="#games" class="brand"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 64 52" width="56" height="46" fill="none"><path d="M17 12h30c7 0 11 5 13 13l3 13c2 8-6 14-13 10l-11-9H25l-11 9C7 52-1 46 1 38l3-13C6 17 10 12 17 12Z" fill="#7E2BEE"/><path d="M17 21v15M9.5 28.5h15" stroke="white" stroke-width="4" stroke-linecap="round"/><circle cx="44" cy="25" r="3.3" fill="white"/><circle cx="51" cy="32" r="3.3" fill="white"/></svg></span><span>VOTEIGHT<br><span>GAMES</span></span></a><nav><a href="#games">GAMES</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a></nav></header>
