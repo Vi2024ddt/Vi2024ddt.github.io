@@ -38,6 +38,9 @@
     "colors": [
       "#18b8f3",
       "#1252a2"
+    ],
+    "platforms": [
+      "Web"
     ]
   },
   {
@@ -74,7 +77,8 @@
     "colors": [
       "#ff963d",
       "#a63a57"
-    ]
+    ],
+    "platforms": []
   },
   {
     "id": "xstructure",
@@ -110,7 +114,8 @@
     "colors": [
       "#4a75ff",
       "#201a72"
-    ]
+    ],
+    "platforms": []
   },
   {
     "id": "neoline",
@@ -146,7 +151,8 @@
     "colors": [
       "#8d35ed",
       "#0bbad6"
-    ]
+    ],
+    "platforms": []
   },
   {
     "id": "sawa-arena",
@@ -181,7 +187,8 @@
     "colors": [
       "#13c6b9",
       "#2856c0"
-    ]
+    ],
+    "platforms": []
   },
   {
     "id": "bop-royale",
@@ -217,6 +224,7 @@
     "colors": [
       "#ffad44",
       "#e4508e"
-    ]
+    ],
+    "platforms": []
   }
 ]
