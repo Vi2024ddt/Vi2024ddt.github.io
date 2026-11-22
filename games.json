@@ -625,9 +625,31 @@
   {
     "id": "oakfall",
     "name": "Oakfall",
-    "description": "",
-    "features": [],
-    "tags": [],
+    "description": "Oakfall is an upcoming top-down zombie survival game set in a quarantined American town. Explore abandoned houses and streets, search for supplies, fight the infected, and survive increasingly dangerous nights.\n\nManage your health, hunger, and stamina as you scavenge for weapons, food, and equipment. The game is currently in development for PC, with a planned Steam release.\n\nIn Development — Planned for Steam.",
+    "features": [
+      [
+        "map",
+        "Explore a Quarantined Town"
+      ],
+      [
+        "search",
+        "Scavenge for Supplies"
+      ],
+      [
+        "swords",
+        "Fight the Infected"
+      ],
+      [
+        "moon",
+        "Survive the Night"
+      ]
+    ],
+    "tags": [
+      "Survival",
+      "Zombies",
+      "Top-Down",
+      "In Development"
+    ],
     "youtubeId": "",
     "image": "",
     "links": [],
@@ -635,7 +657,10 @@
       "#2697ef",
       "#692bd6"
     ],
-    "platforms": []
+    "platforms": [
+      "PC",
+      "Steam (Planned)"
+    ]
   },
   {
     "id": "onlyup",
