@@ -2,23 +2,23 @@
   {
     "id": "planet-cleaner",
     "name": "Planet Cleaner",
-    "description": "Clean polluted planets, collect resources, upgrade your cleaning equipment and automate the process with drones. Restore entire worlds and unlock new planets.",
+    "description": "Planet Cleaner is a colorful and relaxing space cleaning simulator where you transform dirty planets into beautiful worlds!\n\nStart with a simple brush and remove layers of dirt to restore each planet. Collect money, upgrade your cleaning equipment, unlock powerful tools, and automate your work with robots.\n\nExplore a variety of unique planets, each with its own appearance and cleaning challenges. Build your cleaning operation, increase your income, complete missions, earn achievements, and unlock new worlds.\n\nStart cleaning and turn the galaxy into a sparkling paradise!",
     "features": [
       [
         "leaf",
-        "Clean Planets"
+        "Clean & Restore Planets"
       ],
       [
         "settings",
-        "Upgrade Gear"
+        "Upgrade Cleaning Tools"
       ],
       [
         "bot",
-        "Automate with Drones"
+        "Automate with Robots"
       ],
       [
-        "chart",
-        "Grow & Expand"
+        "trophy",
+        "Missions & Achievements"
       ]
     ],
     "tags": [
@@ -45,24 +45,24 @@
   },
   {
     "id": "crush-metal",
-    "name": "CRUSH METAL",
-    "description": "Battle in a demolition derby arena, crash into rival cars and survive the mayhem.",
+    "name": "CRUSH METAL: Car Derby",
+    "description": "Jump into the arena and outlast your rivals in CRUSHMETAL: Car Derby! Smash into enemy cars, dodge collisions, collect repair, fuel, and nitro pickups, and be the last driver still moving. Choose your car, upgrade your driving skills, and survive the chaos!",
     "features": [
       [
         "car",
-        "Demolition Derby"
+        "Smash Rival Cars"
       ],
       [
         "zap",
-        "Impact Combat"
+        "Fuel & Nitro Pickups"
       ],
       [
         "shield",
-        "Survive"
+        "Repair & Survive"
       ],
       [
         "trophy",
-        "Win the Arena"
+        "Last Driver Standing"
       ]
     ],
     "tags": [
@@ -83,19 +83,19 @@
   {
     "id": "xstructure",
     "name": "Xstructure",
-    "description": "Explore a mysterious shifting labyrinth and race to find the exit.",
+    "description": "Xstructure is a 3D maze escape game where your goal is to find the exit from a massive, constantly moving megastructure. The structure changes its shape every time you play and grows larger as you progress, creating a different maze on every run.\n\nExplore the ever-changing megastructure as weather conditions shift around you, accompanied by atmospheric music and immersive gameplay. Customize your character’s color, complete achievements, and find your way out of Xstructure.",
     "features": [
       [
         "route",
-        "Explore Mazes"
-      ],
-      [
-        "timer",
-        "Beat the Clock"
+        "Changing Mazes"
       ],
       [
         "eye",
-        "Stay Alert"
+        "Dynamic Weather"
+      ],
+      [
+        "settings",
+        "Customize Colors"
       ],
       [
         "flag",
