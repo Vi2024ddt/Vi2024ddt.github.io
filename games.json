@@ -121,7 +121,9 @@
       "#201a72"
     ],
     "platforms": [
-      "Web"
+      "Web",
+      "Mobile",
+      "PC"
     ]
   },
   {
