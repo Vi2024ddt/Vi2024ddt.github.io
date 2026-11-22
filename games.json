@@ -476,10 +476,32 @@
   {
     "id": "hero-swap",
     "name": "Hero Swap",
-    "description": "",
-    "features": [],
-    "tags": [],
-    "youtubeId": "",
+    "description": "Hero Swap is a colorful action survival game where you switch between unique heroes, upgrade their abilities, and battle waves of enemies.\n\nImprove your heroes' damage, health, attack speed, movement speed, and other abilities. Experiment with different heroes and upgrades to survive increasingly challenging enemy waves.\n\nEarly gameplay demo developed in Unity.",
+    "features": [
+      [
+        "repeat",
+        "Switch Between Heroes"
+      ],
+      [
+        "swords",
+        "Fight Enemy Waves"
+      ],
+      [
+        "trending-up",
+        "Upgrade Hero Abilities"
+      ],
+      [
+        "shield",
+        "Survive Longer"
+      ]
+    ],
+    "tags": [
+      "Action",
+      "Survival",
+      "3D",
+      "Unity"
+    ],
+    "youtubeId": "8ckZ-QZzQB4",
     "image": "",
     "links": [],
     "colors": [
