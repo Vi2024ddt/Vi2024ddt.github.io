@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0756c7"><meta name="description" content="Voteight Games — independent game developer. Watch gameplay and explore our games."><title>Voteight Games — Our Games</title>
-<style>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet"><style>
 :root{--ink:#151e4b;--purple:#772af4;--blue:#15a8f2;--muted:#42537e}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;color:var(--ink);overflow-x:hidden;background:#edf5ff}button,a{font:inherit}button{cursor:pointer}a{text-decoration:none;color:inherit}
 .sky{position:relative;isolation:isolate;overflow:hidden;background:radial-gradient(ellipse at 69% 0%,#318be9 0%,#87c9ff 29%,transparent 57%),radial-gradient(ellipse at 0% 23%,#ffedff 0%,transparent 42%),linear-gradient(175deg,#e8e9ff 0%,#e4f6ff 49%,#f7f6ff 100%);padding-bottom:50px}
 .sky:after{content:"";position:absolute;z-index:-1;left:-8%;right:-8%;bottom:-65px;height:180px;border-radius:50% 50% 0 0;background:linear-gradient(100deg,#15b9ff,#f7fbff 35%,#fff 70%,#8d42fa);transform:rotate(-1deg)}
@@ -164,6 +164,47 @@ nav a:hover{color:#ffb6ff}
 .bottom a{color:#fff;background:linear-gradient(110deg,#d92df5,#7622e8);display:inline-block;border-radius:24px;padding:10px 15px;margin:2px 5px 2px 0;box-shadow:0 0 12px #a82eff88}
 footer{background:#130e4b;border-top:1px solid #a65aff}
 @media(max-width:650px){.sky{background-position:center top}.hero .eyebrow,.overview .eyebrow{letter-spacing:2px}.bottom{border-radius:22px 22px 0 0}}
+
+/* Neon reference refresh — use the actual uploaded background, not a simulated sky. */
+:root{--ink:#fff;--purple:#ef36f5;--blue:#29eaff}
+html{background:#081c8e}
+body{font-family:'Outfit',sans-serif;background:#071d8e;color:white}
+.sky{background:#0839ae url("Неоновый космический горизонт и облака.png") center top / 100% 100% no-repeat!important;min-height:100vh;padding-bottom:48px}
+.sky::before,.sky::after{display:none!important}
+header{height:86px;max-width:1460px}
+.brand{font-family:'Outfit',sans-serif;font-size:24px;font-weight:900;letter-spacing:-.8px;line-height:.88;text-shadow:0 3px 2px #100c62,0 6px 14px #080e6d}
+.brand span span{color:#f94be9;text-shadow:0 2px 1px #62118b,0 5px 12px #5d13bd}
+.brand-icon svg{filter:drop-shadow(0 3px 0 #6a0d99) drop-shadow(0 0 12px #fc2cff)}
+nav a{font-family:'Outfit',sans-serif;font-size:14px;font-weight:900;text-shadow:0 2px 3px #051469}
+nav a:first-child{background:linear-gradient(180deg,#ff5df5,#b315e8 70%,#6d15c8);border:2px solid #ffe4ff;box-shadow:inset 0 2px 4px #fff8,0 3px 0 #5c0a9b,0 0 20px #ef24ff}
+.hero>.eyebrow{top:-11px}
+.hero>h1{top:-11px;font-family:'Outfit',sans-serif;font-size:clamp(54px,5.5vw,84px);font-weight:900;letter-spacing:-2px;line-height:.95;margin:4px 0 9px;color:#fff;text-shadow:0 3px 0 #d6d7ff55,0 6px 2px #081e88,0 12px 18px #001263a6}
+.hero h1 span{color:#ff55eb;background:linear-gradient(180deg,#ff83f5 0%,#f83ae3 45%,#ba20e6 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 4px 0 #6b12a7) drop-shadow(0 7px 9px #001d7e)}
+.hero .eyebrow{font-size:13px;font-weight:900;letter-spacing:5px;color:#fff;text-shadow:0 2px 6px #002582}
+.hero .sub{font-size:18px;font-weight:800;color:#fff;text-shadow:0 2px 5px #001a75}
+.carousel-wrap{margin-top:45px}
+.game-card,.game-card.active{border:3px solid #f9f8ff!important;outline:none!important;box-shadow:0 0 0 1px #84eaff,0 0 15px #04eaff,0 0 29px #5c37ff88,0 22px 36px #00115e9c!important}
+.game-card.active{border-width:4px!important;box-shadow:0 0 0 2px #e5faff,0 0 18px #2afaff,0 0 35px #a72aff,0 22px 44px #000e6aa6!important}
+.game-card strong{font-family:'Outfit',sans-serif;font-weight:900;font-size:clamp(18px,1.8vw,27px);text-shadow:0 3px 2px #0c0b53,0 6px 10px #000c}
+.play-icon{background:linear-gradient(145deg,#a52dff,#30159c);border:2px solid white;box-shadow:inset 0 2px 4px #ffffff70,0 0 0 2px #e961ff66,0 0 22px #f33cff,0 5px 14px #05096c}
+.carousel-arrow{background:linear-gradient(155deg,#a638f5,#4d1ba7);border:2px solid #fff!important;color:white;box-shadow:inset 0 2px 5px #ffffff80,0 0 0 2px #d839f255,0 0 21px #f23cff,0 7px 18px #080b70}
+.carousel-arrow:hover{background:linear-gradient(145deg,#fa50f8,#8324df)}
+.progress-dot{background:#cddaff;box-shadow:0 0 6px #a5d8ff}
+.progress-dot[aria-current="true"]{background:linear-gradient(90deg,#ff65f3,#b927fa);box-shadow:0 0 12px #ff5af9}
+.scroll-hint{font-weight:700;color:white;text-shadow:0 2px 5px #001d76}
+.selected h2{font-family:'Outfit',sans-serif;font-size:clamp(33px,3vw,44px);font-weight:900;text-shadow:0 3px 0 #132a91,0 8px 15px #001466}
+.tag{background:#183cba50;border:1px solid #e9f6ff;border-radius:22px;color:#fff;font-weight:800;font-size:13px;box-shadow:inset 0 1px 3px #ffffff3d,0 3px 8px #101c884d}
+.game-links a{font-family:'Outfit',sans-serif;font-size:16px;font-weight:900;background:linear-gradient(180deg,#ff6df3,#d822ef 60%,#8d1ccf);border:2px solid #ffbaff;border-radius:26px;padding:12px 26px;box-shadow:inset 0 2px 5px #fff7,0 4px 0 #6311a4,0 0 22px #f22aff}
+.overview{margin-top:48px}
+.overview .eyebrow{font-size:14px;font-weight:900;letter-spacing:5px;text-shadow:0 2px 6px #09196e}
+.overview h2{font-family:'Outfit',sans-serif;font-weight:900;font-size:clamp(48px,5.2vw,75px);letter-spacing:-2px;text-shadow:0 4px 0 #13258a,0 10px 17px #000d63}
+.overview h2 span{color:#ff67ed;text-shadow:0 3px 0 #8e20bc,0 8px 16px #170a79}
+.overview p{font-size:20px;font-weight:600;color:#fff;text-shadow:0 2px 6px #09176b}
+.feature{font-family:'Outfit',sans-serif;font-size:16px;font-weight:800}
+.feature-icon{border:2px solid #e6d8ff;background:linear-gradient(140deg,#fff,#dcd3ff);box-shadow:inset 0 2px 3px #fff,0 0 16px #ae62ff,0 9px 18px #10156a8a}
+.bottom{background:linear-gradient(120deg,#131263,#24116e 55%,#141263);box-shadow:0 -3px 20px #a732f977}
+footer{background:#0d1048}
+@media(max-width:650px){.sky{background-size:auto 100%!important;background-position:center top!important}.hero>h1{font-size:48px}.hero .eyebrow{font-size:9px;letter-spacing:2px}.hero .sub{font-size:14px}.brand{font-size:16px}.carousel-wrap{margin-top:44px}.game-card strong{font-size:15px}.overview h2{font-size:46px}.overview p{font-size:16px}}
 </style></head><body>
 <div class="sky">
 <header><a href="#games" class="brand"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 64 52" width="56" height="46" fill="none"><path d="M17 12h30c7 0 11 5 13 13l3 13c2 8-6 14-13 10l-11-9H25l-11 9C7 52-1 46 1 38l3-13C6 17 10 12 17 12Z" fill="#7E2BEE"/><path d="M17 21v15M9.5 28.5h15" stroke="white" stroke-width="4" stroke-linecap="round"/><circle cx="44" cy="25" r="3.3" fill="white"/><circle cx="51" cy="32" r="3.3" fill="white"/></svg></span><span>VOTEIGHT<br><span>GAMES</span></span></a><nav><a href="#games">GAMES</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a></nav></header>
