@@ -108,7 +108,7 @@
       "3D",
       "Unity"
     ],
-    "youtubeId": "",
+    "youtubeId": "_WJ8se7NIfs",
     "image": "images/xstructure.webp",
     "links": [],
     "colors": [
@@ -224,6 +224,80 @@
     "colors": [
       "#ffad44",
       "#e4508e"
+    ],
+    "platforms": []
+  },
+  {
+    "id": "mimic-io",
+    "name": "Mimic.io",
+    "description": "Survive encounters with dangerous mimics in a 3D action game.",
+    "features": [
+      [
+        "eye",
+        "Spot Mimics"
+      ],
+      [
+        "move",
+        "Explore"
+      ],
+      [
+        "shield",
+        "Survive"
+      ],
+      [
+        "target",
+        "Avoid Danger"
+      ]
+    ],
+    "tags": [
+      "Action",
+      "Survival",
+      "3D",
+      "Unity"
+    ],
+    "youtubeId": "8SVHkN8FyR8",
+    "image": "",
+    "links": [],
+    "colors": [
+      "#7446d9",
+      "#13255c"
+    ],
+    "platforms": []
+  },
+  {
+    "id": "bubble-gums-arena",
+    "name": "Bubble Gums Arena",
+    "description": "Compete in a colorful arena, collect pickups and outlast your opponents.",
+    "features": [
+      [
+        "plus",
+        "Collect"
+      ],
+      [
+        "users",
+        "Opponents"
+      ],
+      [
+        "move",
+        "Arena Action"
+      ],
+      [
+        "trophy",
+        "Win"
+      ]
+    ],
+    "tags": [
+      "Arcade",
+      "Arena",
+      "3D",
+      "Unity"
+    ],
+    "youtubeId": "QB11je6Rdzw",
+    "image": "",
+    "links": [],
+    "colors": [
+      "#ff76bf",
+      "#6042d7"
     ],
     "platforms": []
   }
