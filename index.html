@@ -210,6 +210,15 @@ footer{background:#0d1048}
 /* Keep YouTube at its native aspect ratio; prevent touches/hover from revealing player controls. */
 .video{overflow:hidden}.video iframe{position:absolute;inset:0;width:100%;height:100%;pointer-events:auto}.video-pause,.sound-toggle{display:none!important}
 @media(max-width:650px){.carousel-arrow,.carousel-arrow.left,.carousel-arrow.right{display:none!important}}
+
+/* Mobile header: separate brand and navigation to prevent collisions */
+@media(max-width:650px){
+ header{height:auto!important;min-height:108px;padding:14px 14px 8px!important;display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:13px!important;box-sizing:border-box}
+ header .brand{display:flex;align-items:center;justify-content:center;font-size:18px!important;gap:8px!important;white-space:nowrap}
+ header .brand-icon svg{width:40px!important;height:35px!important}
+ header nav{display:flex!important;align-items:center!important;justify-content:center!important;gap:12px!important;width:100%;flex-wrap:nowrap}
+ header nav a{font-size:11px!important;padding:9px 13px!important;white-space:nowrap}
+}
 </style></head><body>
 <div class="sky">
 <header><a href="#games" class="brand"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 64 52" width="56" height="46" fill="none"><path d="M17 12h30c7 0 11 5 13 13l3 13c2 8-6 14-13 10l-11-9H25l-11 9C7 52-1 46 1 38l3-13C6 17 10 12 17 12Z" fill="#7E2BEE"/><path d="M17 21v15M9.5 28.5h15" stroke="white" stroke-width="4" stroke-linecap="round"/><circle cx="44" cy="25" r="3.3" fill="white"/><circle cx="51" cy="32" r="3.3" fill="white"/></svg></span><span>VOTEIGHT<br><span>GAMES</span></span></a><nav><a href="#games">GAMES</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a></nav></header>
