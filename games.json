@@ -822,10 +822,32 @@
   {
     "id": "wildwinder2d",
     "name": "Wildwinder2D",
-    "description": "",
-    "features": [],
-    "tags": [],
-    "youtubeId": "",
+    "description": "Wildwinder2D is a fast-paced 2D .io arena game where you destroy geometric shapes, battle enemies, and build a collection of orbiting objects.\n\nSmash through fields of destructible shapes, defeat nearby opponents, and collect different geometric objects that rotate around your character. Expand your orbiting arsenal and dominate the arena!",
+    "features": [
+      [
+        "target",
+        "Destroy Geometric Shapes"
+      ],
+      [
+        "swords",
+        "Battle Arena Enemies"
+      ],
+      [
+        "rotate-3d",
+        "Collect Orbiting Objects"
+      ],
+      [
+        "trophy",
+        "Dominate the Arena"
+      ]
+    ],
+    "tags": [
+      "Arcade",
+      "Arena",
+      ".io",
+      "2D"
+    ],
+    "youtubeId": "ZJpdz1i4p64",
     "image": "",
     "links": [],
     "colors": [
