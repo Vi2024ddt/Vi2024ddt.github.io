@@ -274,6 +274,11 @@ footer{background:#0d1048}
   .game-card.active .video{width:100%;height:100%}
 }
 
+/* Flatten the stacking context while keeping perspective on the cards.
+   This makes z-index reliably cover side cards with the active card. */
+.carousel{transform-style:flat!important;perspective:1450px;perspective-origin:50% 43%}
+.game-card.active{z-index:100!important}
+.game-card.side-left,.game-card.side-right{z-index:1!important}
 /* Single-card mode for narrow desktop windows, tablets and phones. */
 @media(max-width:1449px){
   .carousel-wrap{width:100%!important;max-width:100%!important;height:calc(min(78vw,600px) * 9 / 16 + 90px)!important;overflow:visible!important;perspective:none!important}
