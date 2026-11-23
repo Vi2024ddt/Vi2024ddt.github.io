@@ -261,7 +261,19 @@ footer{background:#0d1048}
  .selected h2{margin-bottom:14px}
  .overview{margin-top:37px}
 }
-.footer-meta{display:flex;flex-direction:column;gap:5px;text-align:right}.site-dates{font-size:11px;opacity:.8}.site-dates span{padding:0 5px}@media(max-width:650px){.footer-meta{text-align:center}.site-dates{line-height:1.6}}</style></head><body>
+.footer-meta{display:flex;flex-direction:column;gap:5px;text-align:right}.site-dates{font-size:11px;opacity:.8}.site-dates span{padding:0 5px}@media(max-width:650px){.footer-meta{text-align:center}.site-dates{line-height:1.6}}
+/* Compact viewport: show one complete video card, without overlapping side cards. */
+@media(max-width:650px){
+  .carousel-wrap{width:100%;height:calc(78vw * 9 / 16 + 74px)!important;overflow:visible}
+  .game-card:not(.active){opacity:0!important;visibility:hidden;pointer-events:none!important}
+  .game-card.active{left:50%;width:78vw!important;transform:translateX(-50%) translateZ(0)!important;opacity:1!important;visibility:visible}
+  .carousel-progress{max-width:calc(100vw - 24px);width:100%;overflow:hidden;top:calc(78vw * 9 / 16 + 15px)!important}
+  .progress-dots{max-width:100%;overflow-x:auto;scrollbar-width:none;justify-content:flex-start;padding:3px 6px}
+  .progress-dots::-webkit-scrollbar{display:none}
+  .carousel-arrow{z-index:90}
+  .game-card.active .video{width:100%;height:100%}
+}
+</style></head><body>
 <div class="sky">
 <header><a href="#games" class="brand"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 64 52" width="56" height="46" fill="none"><path d="M17 12h30c7 0 11 5 13 13l3 13c2 8-6 14-13 10l-11-9H25l-11 9C7 52-1 46 1 38l3-13C6 17 10 12 17 12Z" fill="#7E2BEE"/><path d="M17 21v15M9.5 28.5h15" stroke="white" stroke-width="4" stroke-linecap="round"/><circle cx="44" cy="25" r="3.3" fill="white"/><circle cx="51" cy="32" r="3.3" fill="white"/></svg></span><span>VOTEIGHT<br><span>GAMES</span></span></a><div class="portfolio-count" aria-label="62 games since October 2024"><span class="portfolio-count-number" id="game-count">62</span><span class="portfolio-count-copy">GAMES CREATED<small id="portfolio-period">SINCE OCT 2024</small></span></div><nav><a href="#games">GAMES</a><a href="#about">ABOUT</a><a href="#contact" id="open-contact">CONTACT</a></nav></header>
 <main><section id="games" class="hero"><div class="eyebrow">INDEPENDENT GAME DEVELOPER</div><h1>OUR <span>GAMES</span></h1><p class="sub">Explore our collection of games</p>
