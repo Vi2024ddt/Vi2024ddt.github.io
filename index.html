@@ -275,7 +275,7 @@ footer{background:#0d1048}
 }
 
 /* Single-card mode for narrow desktop windows, tablets and phones. */
-@media(max-width:1099px){
+@media(max-width:1449px){
   .carousel-wrap{width:100%!important;max-width:100%!important;height:calc(min(78vw,600px) * 9 / 16 + 90px)!important;overflow:visible!important;perspective:none!important}
   .game-card{width:min(78vw,600px)!important;top:0!important;left:50%!important;transition:opacity .2s ease!important}
   .game-card:not(.active){display:none!important}
@@ -320,7 +320,7 @@ function expandVideo(){if(expandedVideo||!player)return;const host=document.getE
 document.getElementById('video-overlay-close').onclick=closeExpandedVideo;videoOverlay.addEventListener('click',e=>{if(e.target===videoOverlay)closeExpandedVideo()});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&expandedVideo)closeExpandedVideo()});
 function stop(){if(expandedVideo)closeExpandedVideo();if(player){try{player.destroy()}catch(e){}}player=null}
 function start(){const g=games[active];if(!g?.youtubeId||!ytReady||!inView||player)return;const host=document.getElementById('video-host');if(!host)return;player=new YT.Player(host,{videoId:g.youtubeId,playerVars:{autoplay:1,mute:1,playsinline:1,controls:1,modestbranding:1,iv_load_policy:3,fs:0,disablekb:0,rel:0,origin:location.origin},events:{onReady:e=>{e.target.mute();e.target.playVideo();}}})}
-function draw(){stop();if(gallery.children.length!==games.length)gallery.replaceChildren();const vw=window.innerWidth;const narrow=vw<1100;const medium=vw<1100;
+function draw(){stop();if(gallery.children.length!==games.length)gallery.replaceChildren();const vw=window.innerWidth;const narrow=vw<1450;const medium=vw<1450;
 const width=narrow?vw*.78:medium?Math.min(vw*.52,520):Math.min(vw*.36,600);
 const angle=35*Math.PI/180;
 const radius=narrow?width*.94:medium?width*1.38:Math.max(width*1.55,vw*.56);
