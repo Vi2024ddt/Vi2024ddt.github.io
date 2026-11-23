@@ -73,12 +73,20 @@
     ],
     "youtubeId": "dM7U6gZmnoc",
     "image": "images/crush-metal.webp",
-    "links": [],
+    "links": [
+      {
+        "label": "Play Online",
+        "url": "https://vi2024ddt.github.io/CrushMetal_web/"
+      }
+    ],
     "colors": [
       "#ff963d",
       "#a63a57"
     ],
-    "platforms": []
+    "platforms": [
+      "Web",
+      "PC"
+    ]
   },
   {
     "id": "xstructure",
